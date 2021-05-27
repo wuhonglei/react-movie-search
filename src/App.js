@@ -27,7 +27,7 @@ function App() {
     });
   }, []);
 
-  const searchMovie = async () => {
+  const searchMovie = async() => {
     const data = await getMovieList(input);
     setMovieList(data);
   }
